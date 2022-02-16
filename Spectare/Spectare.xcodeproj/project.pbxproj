@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4D09E8D272C6FC400046FFE /* SpectareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D09E8C272C6FC400046FFE /* SpectareApp.swift */; };
+		A4D09E8F272C6FC400046FFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D09E8E272C6FC400046FFE /* ContentView.swift */; };
+		A4D09E91272C6FC500046FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D09E90272C6FC500046FFE /* Assets.xcassets */; };
+		A4D09E94272C6FC500046FFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D09E93272C6FC500046FFE /* Preview Assets.xcassets */; };
+		A4D09E96272C6FC500046FFE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D09E95272C6FC500046FFE /* Persistence.swift */; };
+		A4D09E99272C6FC500046FFE /* Spectare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4D09E97272C6FC500046FFE /* Spectare.xcdatamodeld */; };
+		A4D09EA3272C6FC500046FFE /* SpectareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D09EA2272C6FC500046FFE /* SpectareTests.swift */; };
+		A4D09EAD272C6FC500046FFE /* SpectareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D09EAC272C6FC500046FFE /* SpectareUITests.swift */; };
+		A4D09EAF272C6FC500046FFE /* SpectareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D09EAE272C6FC500046FFE /* SpectareUITestsLaunchTests.swift */; };
+		B6D6D4BB272C75D7004523BC /* CompVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D6D4BA272C75D7004523BC /* CompVision.swift */; };
+		B6D6D4BD272C78C2004523BC /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D6D4BC272C78C2004523BC /* SwiftUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4D09E9F272C6FC500046FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D09E81272C6FC400046FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4D09E88272C6FC400046FFE;
+			remoteInfo = Spectare;
+		};
+		A4D09EA9272C6FC500046FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D09E81272C6FC400046FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4D09E88272C6FC400046FFE;
+			remoteInfo = Spectare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4D09E89272C6FC400046FFE /* Spectare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spectare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D09E8C272C6FC400046FFE /* SpectareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectareApp.swift; sourceTree = "<group>"; };
+		A4D09E8E272C6FC400046FFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4D09E90272C6FC500046FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4D09E93272C6FC500046FFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4D09E95272C6FC500046FFE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A4D09E98272C6FC500046FFE /* Spectare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spectare.xcdatamodel; sourceTree = "<group>"; };
+		A4D09E9E272C6FC500046FFE /* SpectareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D09EA2272C6FC500046FFE /* SpectareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectareTests.swift; sourceTree = "<group>"; };
+		A4D09EA8272C6FC500046FFE /* SpectareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D09EAC272C6FC500046FFE /* SpectareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectareUITests.swift; sourceTree = "<group>"; };
+		A4D09EAE272C6FC500046FFE /* SpectareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6D6D4BA272C75D7004523BC /* CompVision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompVision.swift; sourceTree = "<group>"; };
+		B6D6D4BC272C78C2004523BC /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		B6D6D4BE272C7DB6004523BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4D09E86272C6FC400046FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D09E9B272C6FC500046FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D09EA5272C6FC500046FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4D09E80272C6FC400046FFE = {
+			isa = PBXGroup;
+			children = (
+				A4D09E8B272C6FC400046FFE /* Spectare */,
+				A4D09EA1272C6FC500046FFE /* SpectareTests */,
+				A4D09EAB272C6FC500046FFE /* SpectareUITests */,
+				A4D09E8A272C6FC400046FFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4D09E8A272C6FC400046FFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4D09E89272C6FC400046FFE /* Spectare.app */,
+				A4D09E9E272C6FC500046FFE /* SpectareTests.xctest */,
+				A4D09EA8272C6FC500046FFE /* SpectareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4D09E8B272C6FC400046FFE /* Spectare */ = {
+			isa = PBXGroup;
+			children = (
+				B6D6D4BE272C7DB6004523BC /* Info.plist */,
+				A4D09E8C272C6FC400046FFE /* SpectareApp.swift */,
+				A4D09E8E272C6FC400046FFE /* ContentView.swift */,
+				B6D6D4BC272C78C2004523BC /* SwiftUIView.swift */,
+				A4D09E90272C6FC500046FFE /* Assets.xcassets */,
+				B6D6D4BA272C75D7004523BC /* CompVision.swift */,
+				A4D09E95272C6FC500046FFE /* Persistence.swift */,
+				A4D09E97272C6FC500046FFE /* Spectare.xcdatamodeld */,
+				A4D09E92272C6FC500046FFE /* Preview Content */,
+			);
+			path = Spectare;
+			sourceTree = "<group>";
+		};
+		A4D09E92272C6FC500046FFE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4D09E93272C6FC500046FFE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4D09EA1272C6FC500046FFE /* SpectareTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4D09EA2272C6FC500046FFE /* SpectareTests.swift */,
+			);
+			path = SpectareTests;
+			sourceTree = "<group>";
+		};
+		A4D09EAB272C6FC500046FFE /* SpectareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4D09EAC272C6FC500046FFE /* SpectareUITests.swift */,
+				A4D09EAE272C6FC500046FFE /* SpectareUITestsLaunchTests.swift */,
+			);
+			path = SpectareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4D09E88272C6FC400046FFE /* Spectare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D09EB2272C6FC500046FFE /* Build configuration list for PBXNativeTarget "Spectare" */;
+			buildPhases = (
+				A4D09E85272C6FC400046FFE /* Sources */,
+				A4D09E86272C6FC400046FFE /* Frameworks */,
+				A4D09E87272C6FC400046FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spectare;
+			productName = Spectare;
+			productReference = A4D09E89272C6FC400046FFE /* Spectare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4D09E9D272C6FC500046FFE /* SpectareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D09EB5272C6FC500046FFE /* Build configuration list for PBXNativeTarget "SpectareTests" */;
+			buildPhases = (
+				A4D09E9A272C6FC500046FFE /* Sources */,
+				A4D09E9B272C6FC500046FFE /* Frameworks */,
+				A4D09E9C272C6FC500046FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4D09EA0272C6FC500046FFE /* PBXTargetDependency */,
+			);
+			name = SpectareTests;
+			productName = SpectareTests;
+			productReference = A4D09E9E272C6FC500046FFE /* SpectareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4D09EA7272C6FC500046FFE /* SpectareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D09EB8272C6FC500046FFE /* Build configuration list for PBXNativeTarget "SpectareUITests" */;
+			buildPhases = (
+				A4D09EA4272C6FC500046FFE /* Sources */,
+				A4D09EA5272C6FC500046FFE /* Frameworks */,
+				A4D09EA6272C6FC500046FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4D09EAA272C6FC500046FFE /* PBXTargetDependency */,
+			);
+			name = SpectareUITests;
+			productName = SpectareUITests;
+			productReference = A4D09EA8272C6FC500046FFE /* SpectareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4D09E81272C6FC400046FFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A4D09E88272C6FC400046FFE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A4D09E9D272C6FC500046FFE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A4D09E88272C6FC400046FFE;
+					};
+					A4D09EA7272C6FC500046FFE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A4D09E88272C6FC400046FFE;
+					};
+				};
+			};
+			buildConfigurationList = A4D09E84272C6FC400046FFE /* Build configuration list for PBXProject "Spectare" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4D09E80272C6FC400046FFE;
+			productRefGroup = A4D09E8A272C6FC400046FFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4D09E88272C6FC400046FFE /* Spectare */,
+				A4D09E9D272C6FC500046FFE /* SpectareTests */,
+				A4D09EA7272C6FC500046FFE /* SpectareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4D09E87272C6FC400046FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D09E94272C6FC500046FFE /* Preview Assets.xcassets in Resources */,
+				A4D09E91272C6FC500046FFE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D09E9C272C6FC500046FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D09EA6272C6FC500046FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4D09E85272C6FC400046FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D09E99272C6FC500046FFE /* Spectare.xcdatamodeld in Sources */,
+				A4D09E96272C6FC500046FFE /* Persistence.swift in Sources */,
+				B6D6D4BD272C78C2004523BC /* SwiftUIView.swift in Sources */,
+				B6D6D4BB272C75D7004523BC /* CompVision.swift in Sources */,
+				A4D09E8F272C6FC400046FFE /* ContentView.swift in Sources */,
+				A4D09E8D272C6FC400046FFE /* SpectareApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D09E9A272C6FC500046FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D09EA3272C6FC500046FFE /* SpectareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D09EA4272C6FC500046FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D09EAF272C6FC500046FFE /* SpectareUITestsLaunchTests.swift in Sources */,
+				A4D09EAD272C6FC500046FFE /* SpectareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4D09EA0272C6FC500046FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4D09E88272C6FC400046FFE /* Spectare */;
+			targetProxy = A4D09E9F272C6FC500046FFE /* PBXContainerItemProxy */;
+		};
+		A4D09EAA272C6FC500046FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4D09E88272C6FC400046FFE /* Spectare */;
+			targetProxy = A4D09EA9272C6FC500046FFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4D09EB0272C6FC500046FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4D09EB1272C6FC500046FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4D09EB3272C6FC500046FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spectare/Preview Content\"";
+				DEVELOPMENT_TEAM = 2WZRNRH5M9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Spectare/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Uwu please can I use the camera Uwu";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mb.Spectare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4D09EB4272C6FC500046FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spectare/Preview Content\"";
+				DEVELOPMENT_TEAM = 2WZRNRH5M9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Spectare/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Uwu please can I use the camera Uwu";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mb.Spectare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4D09EB6272C6FC500046FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mb.SpectareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spectare.app/Spectare";
+			};
+			name = Debug;
+		};
+		A4D09EB7272C6FC500046FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mb.SpectareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spectare.app/Spectare";
+			};
+			name = Release;
+		};
+		A4D09EB9272C6FC500046FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mb.SpectareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spectare;
+			};
+			name = Debug;
+		};
+		A4D09EBA272C6FC500046FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mb.SpectareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spectare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4D09E84272C6FC400046FFE /* Build configuration list for PBXProject "Spectare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D09EB0272C6FC500046FFE /* Debug */,
+				A4D09EB1272C6FC500046FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D09EB2272C6FC500046FFE /* Build configuration list for PBXNativeTarget "Spectare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D09EB3272C6FC500046FFE /* Debug */,
+				A4D09EB4272C6FC500046FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D09EB5272C6FC500046FFE /* Build configuration list for PBXNativeTarget "SpectareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D09EB6272C6FC500046FFE /* Debug */,
+				A4D09EB7272C6FC500046FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D09EB8272C6FC500046FFE /* Build configuration list for PBXNativeTarget "SpectareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D09EB9272C6FC500046FFE /* Debug */,
+				A4D09EBA272C6FC500046FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4D09E97272C6FC500046FFE /* Spectare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4D09E98272C6FC500046FFE /* Spectare.xcdatamodel */,
+			);
+			currentVersion = A4D09E98272C6FC500046FFE /* Spectare.xcdatamodel */;
+			path = Spectare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A4D09E81272C6FC400046FFE /* Project object */;
+}
