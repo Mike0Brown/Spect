@@ -1,7 +1,7 @@
 # Spect
 A light weight iPhone App that can associate a brand with a stock ticker 
 
-[[/image/home.png|homepage]]
+[[https://github.com/Mike0Brown/Spect/blob/main/image/home.png|homepage]]
 
 
 
