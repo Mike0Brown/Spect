@@ -1,7 +1,7 @@
 # Spect
 A light weight iPhone App that can associate a brand with a stock ticker 
 
-![Homepage](/image/home.png)
+![Homepage](/image/input.png)
 
 # Copyright 
 @ `Michael Brown and Fin Kirvan` 
