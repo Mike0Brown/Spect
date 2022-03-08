@@ -37,7 +37,7 @@ The idea of our app is simple. When you see a brand you don't know you can scan 
 ### Analyze 
 
 
-`Now you have the power to analyze the ticker you have just found out about. Look up recent charts pricing and news on various platforms!`
+`Now you have the power to research the ticker you have just found out about. Look up recent charts pricing and news on various platforms!`
 ![Homepage](/image/analy.png)
 
 
