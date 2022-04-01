@@ -6,12 +6,12 @@ A light weight iPhone App that can associate a brand with a stock ticker.
 
 
 ## Functionality 
-The idea of our app is simple. When you see a brand you don't know you can scan it and find out which company owns that brand, and if it is publicly traded it's ticker. This is usefull for when you see a new product in the store that is getting bought up and you want to buy that companies stock! 
+The idea of our app is simple. When you see a brand you don't know, you can scan it and find out which company owns that brand, and, if it is publicly traded, it's ticker. This should be usefull for when you see a new product in the store that is getting bought up and you want to buy that companies stock! 
 
 ### Scan 
 
 
-`Simply take a picture of the product you would like to know more about.` 
+`Simply take a picture of the product to learn more. 
 ![Homepage](/image/scan.png)
 
 
@@ -37,7 +37,7 @@ The idea of our app is simple. When you see a brand you don't know you can scan 
 ### Analyze 
 
 
-`Now you have the power to research the ticker you have just found out about. Look up recent charts pricing and news on various platforms!`
+`Now you have the power to research the ticker you scanned. Look up recent charts pricing and news on various platforms!`
 ![Homepage](/image/analy.png)
 
 
@@ -51,4 +51,4 @@ The idea of our app is simple. When you see a brand you don't know you can scan 
 @ `Michael Brown and Fin Kirvan` 
 
 
-We retain full rights as authors of this project. This Project cannot be redrisbuted or modified without the express permission of both authors. 
+We retain full rights as authors of this project. This Project cannot be redistributed or modified without the express permission of both authors. 
